@@ -1,0 +1,96 @@
+:root{
+    --main-bg-color:blueviolet;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    background-image: url(/frontpage/imgs/17.jpg);
+}
+header{
+    display: flex;
+    background-color: var(--main-bg-color);
+    width: 100vw;
+    height: 12vh
+}
+.logo img{
+    margin: 0px -352px;
+    height: 12vh;
+    width: 43vw;
+}
+nav ul{
+    display: flex;
+    margin: 0px 352px;
+}
+nav ul li{
+    margin: 22px 31px;
+}
+#home{
+    margin-left: 297px;
+}
+#contact{
+    margin-right: -242px;
+}
+.d-flex{
+    margin: 18px 377px;
+    width: 366px;
+}
+input.form-control.me-2{
+    width: 315px;
+    height: 30px;
+    border: 1px solid #767676;
+}
+button.btn.btn-outline-success{
+    height: 30px;
+    margin: 0px -5px;
+    width: 37px;
+}
+button.btn.btn-outline-success img{
+    margin: -2px 0;
+}
+.container{
+  min-height: calc(100vh - 10vh - 12vh);
+}
+.note1{
+    display: flex;
+    justify-content: center;
+    width: fit-content
+    /* background-color: #ffaec9; */
+}
+.note1 img{
+    padding: 0px 104px;
+    margin: 10px 20px;
+    width: 1150px;
+}
+#selectclass{
+    margin-left: 600px;
+}
+.classlinks{
+    width: 100vw;
+    margin: 0px 413px;
+}
+#nineth{
+    margin-left: -255px;
+    border-radius: 10px;
+}
+#tenth{
+    margin: -4px 0px;
+    margin-left: 156px;
+    border-radius: 10px;
+    }
+#eleventh{
+margin: -4px 0px;
+margin-left: 163px;
+border-radius: 10px;
+}
+#twelveth{
+    margin-left: 158px;
+    border-radius: 10px;
+}
+footer{
+    background-color: var(--main-bg-color);
+    height: 10vh;
+    width: 100vw;
+}

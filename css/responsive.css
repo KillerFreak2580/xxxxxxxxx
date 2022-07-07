@@ -1,0 +1,60 @@
+@media screen and (max-width:390px) {
+    header{
+        height: 17vh;
+        width: 266vw;
+    }
+    .logo img{
+        margin-left: -110px;
+    }
+    nav ul li{
+        margin-top: 95px;
+    }
+    #contact{
+        display: inline;
+    margin-left: -212px;
+    }
+    #home{
+        display: inline-block;
+    margin-left: -195px;
+    margin-bottom: -43px;
+    }
+    .d-flex{
+        margin-left: 396px;
+        margin-top: 93px;
+    }
+    .container{
+    
+    }
+    .note1 img{
+        margin-left: -119px;
+        width: 243vw;
+    }
+#selectclass{
+    width: 172px;
+    margin-left: 341px;
+    margin-top: 96px;
+    margin-bottom: 43px;
+}
+.classlinks{
+    margin-left: 314px;
+}
+#nineth{
+    margin-left: -314px;
+}
+#tenth{
+    margin-left: 83px;
+}
+#eleventh{
+    margin-left: 76px;
+}
+#twelveth{
+    margin-left: 65px;
+    margin-right: -184px;
+}
+body{
+    overflow: hidden;
+}
+footer{
+    width: 266vw;
+}
+}
